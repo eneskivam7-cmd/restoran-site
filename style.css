@@ -1,0 +1,165 @@
+body{
+margin:0;
+font-family:Arial;
+background:#111;
+color:white;
+text-align:center;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:black;
+position:sticky;
+top:0;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+}
+
+.logo{
+color:orange;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.order-btn{
+margin-top:20px;
+background:orange;
+padding:15px 30px;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+/* MENU */
+
+.menu{
+padding:40px;
+}
+
+h2{
+color:orange;
+}
+
+.menu-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.menu-item{
+background:#222;
+padding:20px;
+border-radius:10px;
+width:220px;
+}
+
+.menu-item img{
+width:100%;
+border-radius:10px;
+}
+
+.menu-item p{
+color:orange;
+}
+
+/* GALERI */
+
+.gallery-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+padding:30px;
+}
+
+.gallery-container img{
+width:250px;
+border-radius:10px;
+}
+
+/* REVIEWS */
+
+.reviews{
+padding:40px;
+}
+
+.review-box{
+background:#222;
+margin:20px auto;
+padding:20px;
+width:300px;
+border-radius:10px;
+}
+
+/* CONTACT */
+
+.contact{
+padding:40px;
+}
+
+/* MAP */
+
+.map{
+padding-bottom:40px;
+}
+
+/* WHATSAPP */
+
+.whatsapp-fixed{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.menu-container{
+flex-direction:column;
+align-items:center;
+}
+
+.gallery-container{
+flex-direction:column;
+align-items:center;
+}
+
+}
